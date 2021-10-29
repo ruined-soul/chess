@@ -1,3 +1,7 @@
+## DEPLOY
+
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ruined-soul/chess)
 # The PvP chess bot for the Telegram
 
 ![Travis (.org)](https://img.shields.io/travis/Piterden/chessbot.svg?style=for-the-badge)
