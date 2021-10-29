@@ -1,0 +1,31 @@
+{
+    "name": "Chess Bot",
+    "description": "A bot to play chess",
+    "logo": "https://telegra.ph/file/2771b61543bf0269de8d8.jpg",
+    "keywords": [
+        "Chess",
+        "Game",
+        "Telegram Bot",
+        "Ruined_soul"
+    ],
+    "website": "https://github.com/ruined-soul",
+    "repository": "https://github.com/ruined-soul/chess/",
+    "success_url": "https://t.me/assistofficial",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
